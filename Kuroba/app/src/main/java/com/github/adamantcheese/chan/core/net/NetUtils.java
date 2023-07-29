@@ -40,7 +40,7 @@ import okhttp3.internal.http2.StreamResetException;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 public class NetUtils {
-    public static final String USER_AGENT = BuildConfigUtils.VERSION;
+    public static final String USER_AGENT = "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.136 Mobile Safari/537.36";
 
     public static final int MB = 1024 * 1024;
     // The OkHttpClient installed cache, used for all requests
